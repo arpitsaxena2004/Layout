@@ -1,0 +1,23 @@
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}"
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+};
+
+// postcss.config.js
+export default {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  },
+};
+
+// src/index.css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
