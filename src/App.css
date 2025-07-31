@@ -40,3 +40,19 @@
 .read-the-docs {
   color: #888;
 }
+
+.glass-card {
+  background: rgba(255,255,255,0.6);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8px);
+  border-radius: 1.5rem;
+  border: 1px solid rgba(255,255,255,0.18);
+}
+
+.btn-modern {
+  @apply px-6 py-2 rounded-lg bg-gradient-to-r from-primary-light to-accent-purple text-white font-semibold shadow-lg hover:from-accent-blue hover:to-accent-teal transition-all duration-300;
+}
+
+.heading-modern {
+  @apply text-4xl font-extrabold bg-gradient-to-r from-primary-light to-accent-purple bg-clip-text text-transparent mb-6;
+}
